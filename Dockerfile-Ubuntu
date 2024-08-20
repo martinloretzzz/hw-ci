@@ -1,5 +1,5 @@
 # mluckydwyer/hw-ci Docker Container
-FROM ubuntu:20.04 as base
+FROM ubuntu:24.04 as base
 
 LABEL \
     org.opencontainers.image.title="Hardware Verification CI Docker container" \
